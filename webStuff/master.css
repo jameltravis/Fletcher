@@ -1,0 +1,63 @@
+/*for borders remember width, style and color - in that order*/
+
+
+body {
+  background: beige;
+  /*background: url(http://www.woodgrain.com/images/rotation-chile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+h1 {
+  font-style: normal;
+  font-family: sans-serif;
+  color: green;
+  /*border-color: purple;
+  border-width: 5px;
+  border-style: solid;*/
+  border: 5px solid purple;
+}
+
+h2 {
+  color: purple;
+}
+
+
+p {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+ul {
+  color: orange;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+table, td, tr {
+  border: 1px solid black;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  position: relative;
+  border: 2px solid white;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.orca {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  border-radius: 50%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+#goldenTicket {
+  color: gold;
+}

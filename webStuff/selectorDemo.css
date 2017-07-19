@@ -1,0 +1,45 @@
+/*elemenet least specific*/
+li {
+
+}
+
+/*class 10x more specific than element selector*/
+.hello {
+
+}
+/*id most specific, 10x more specific than class selectors*/
+#name {
+
+}
+/*star*/
+* {
+  border: 1px solid lightgrey;
+}
+
+/*descendant selector*/
+
+li a {
+  color: red;
+}
+
+/*adjacent selector*/
+
+h4 + ul {
+  color: red;
+}
+
+/*attribute selctor*/
+
+a[href="https://www.google.com"] {
+  background: blue;
+}
+
+input[type="checkbox"] {
+
+}
+
+/*nth of type*/
+
+li:nth-of-type(odd) {
+  background: purple;
+}
