@@ -1,32 +1,23 @@
 h1 {
-	font-family: sans-serif;
-	text-align: center;
+	font-family: 'Bellefair', serif;
+	margin-left: 1.6%;
 }
 
-table {
-	margin: auto;
-	padding: 5%;
-}
-
-td {
-	width: 100px;
-	height: 100px;
-}
-
-.center {
-	align: center;
-}
-
-.vertical {
-	border-left: 1px solid black;
-	border-right: 1px solid black;
-}
-
-.horizontal {
-	border-top: 1px solid black;
+h2 {
+	font-family: 'Abril Fatface', cursive;
+	margin-left: 1.6%;
 	border-bottom: 1px solid black;
+	width: 30%;
+	padding-bottom: 20px;
 }
 
-#middle {
-	border: 1px solid black;
+div {
+	width: 100px;
+	float: left;
+}
+
+img {
+	width: 30%;
+	float: left;
+	padding: 1.66%;
 }
