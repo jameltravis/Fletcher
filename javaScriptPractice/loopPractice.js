@@ -58,3 +58,44 @@ function fiveThree(n) {
     n++;
   }
 }
+
+// Array Prcatice
+var NHoods = ["Midtown", "Grenich Village", "Harlem", "Financial District"];
+
+// "Push" adds data to the end of an array
+NHoods.push("The Heights");
+
+// "Pop" removes the last item in an array
+NHoods.pop();
+
+// "Unshift" adds an item to the front of an array
+NHoods.unshift("Flatiron");
+
+// "Shift" removes the first element in an array
+NHoods.shift();
+
+// "indexOf" lets you know what the index is
+NHoods.indexOf("Flatiron");
+
+// "slice" copies parts of an array and takes two arguments:
+// where the slice should start and where it should end.
+
+
+// Loop practice with arrays
+
+var colors = ["red", "orange", "yellow", "green"];
+
+for (var i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+// "forEach" - built-in way of iterating over an array: "forEach"
+// syntax is arr.forEach(function()){codeBlock;}
+
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+numbers.forEach(function(color) {
+  if(color % 3 === 0) {
+    console.log(color);
+  }
+});
