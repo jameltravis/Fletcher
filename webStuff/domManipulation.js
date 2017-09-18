@@ -51,4 +51,46 @@ document.getElementsByTagName("p")[0]; // not specific enough
 // tag.style.background = "yellow";
 // tag.style.marginTop = "200px";
 
-var tag = document.getElementById()
+// var tag = document.getElementById("highlight");
+// tag.classList.add("some-class")
+//
+// // add class on an element
+var p = document.querySelector("p");
+// p.classList.add("big");
+
+// Toggle elements i.e. add the class if it isn't in the CSS or
+// delete it if it is there. You're definitely going to want to think for that
+p.classList.toggle("another-class");
+
+//remove a class
+p.classList.remove("another-class");
+
+//Retrieve the textContent; just the text no tags. If you use it to update somehting it will overwrite the assigned element contents. Renders as text
+var tag = document.querySelector("p");
+tag.textContent
+
+//innerHTML - renders as HTML
+var ul = document.querySelector("ul")
+ul.innerHTML
+
+// Attribute
+
+// use "getAttribute()" and "setAttribute()" to read and write attributes like
+// src and href
+
+var link = document.querySelector("a");
+link.getAttribute("href"); //www.google.com
+//Change href attributes
+link.setAttribute("href", "www.dogs.com");
+// <a href="www.dogs.com">I am a link</a>
+
+// to change the image src
+// var img = document.querySelector("img");
+// img.setAttribute("src", "corgi.png");
+
+var lis = document.querySelectorAll("li");
+for (var i = 0; i < lis.length; i++) {
+  lis[i].addEventListener("click", function() {
+    this.style.color = "pink";
+  });
+}
