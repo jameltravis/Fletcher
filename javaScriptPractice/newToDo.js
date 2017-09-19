@@ -11,3 +11,13 @@ for (var i = 0; i < lis.length; i++) {
     this.classList.Toggle("done");
   })
 }
+
+var sum = 0;
+var td = document.getElementsByTagName("td");
+var goodTd = document.querySelectorAll("td a")
+
+var events = document.querySelectorAll("Events");
+
+for (var i = 0; i < array.length; i++) {
+  array[i]
+}
